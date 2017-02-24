@@ -3,7 +3,7 @@ Prototyping Coursework for "Getting Usability Into Development Environments (GUD
 
 # Coursework Outline
 Introduction:<br />
-You are asked to develop high fidelity prototypes for a system which will have three components. Two of these are user facing applications running one running on a PC the other on a mobile device, and the third is a server which will allow each application to communicate with each other, and potentially support social networking activities. You are ONLY ASKED TO DEVELOP PROTOTYPES FOR THE TWO APPS, not the server.
+You are asked to develop high fidelity prototypes for a system which will have three components. Two of these are user facing applications running one running on a PC the other on a mobile device, and the third is a server which will allow each application to communicate with each other, and potentially support social networking activities. You are ONLY ASKED TO DEVELOP PROTOTYPES FOR THE TWO APPS, not the server.<br />
 You will need to:<br />
 *Decide on your precise domain (i.e. the tasks where you will use the geocaching concept)
 *Analyse the problem
@@ -27,21 +27,21 @@ http://eprints.port.ac.uk/5329/2/Microsoft_Word_-_U-LearnFinal-SF.pdf<br />
 This assessment focuses on design for usability, prototyping user interfaces, and about understanding the constraints imposed by devices and operating systems. You must use Visual Basic for the Windows application, for the mobile app we would like you to use one of the tools described in the unit for the mobile application. The mobile app should be demoable within the Webkit browsers, in particular Chrome, so all files should be implemented in HTML format. I expect that parts of the system (for example the communication with the hypothetical server) to be simulated.
 
 # Section 1 35%
-1)	Explain concept model for the application, explicitly describing how the domain and the locational/geocaching model is used
-2)	Identify usability concepts
-3)	Operationalise usability concepts - how to measure this concepts
-4)	Define task allocation across the systems
+1.	Explain concept model for the application, explicitly describing how the domain and the locational/geocaching model is used
+2.	Identify usability concepts
+3.	Operationalise usability concepts - how to measure this concepts
+4.	Define task allocation across the systems
 
  
 # Section 2 45%
-1)	Initial Interface Specification
-2)	Low fidelity prototypes for both Mobile and Desktop applications
-3)	Quick and dirty initial empirical evaluation
-4)	Interface Specification modification
-5)	High fidelity prototypes for both Mobile and Desktop applications (must use Visual Basic for the Desktop prototype)
-6)	Quick and dirty empirical re-evaluation
-7)	Interface Specification modification
+1.	Initial Interface Specification
+2.	Low fidelity prototypes for both Mobile and Desktop applications
+3.	Quick and dirty initial empirical evaluation
+4.	Interface Specification modification
+5.	High fidelity prototypes for both Mobile and Desktop applications (must use Visual Basic for the Desktop prototype)
+6.	Quick and dirty empirical re-evaluation
+7.	Interface Specification modification
 
 # Section 3 20%
-1)	Critical evaluation of, and reflection on your process, and the role of prototyping in empirical evaluation.
+1.	Critical evaluation of, and reflection on your process, and the role of prototyping in empirical evaluation.
 
