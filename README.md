@@ -29,7 +29,7 @@ This assessment focuses on design for usability, prototyping user interfaces, an
 # Section 1 35%
 1.	Explain concept model for the application, explicitly describing how the domain and the locational/geocaching model is used
 2.	Identify usability concepts
-3.	Operationalise usability concepts - how to measure this concepts
+3.	Operationalise usability concepts
 4.	Define task allocation across the systems
 
  
