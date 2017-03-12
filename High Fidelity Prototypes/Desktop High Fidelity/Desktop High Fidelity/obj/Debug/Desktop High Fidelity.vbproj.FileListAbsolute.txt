@@ -1,0 +1,14 @@
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.exe.config
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.SignInForm.resources
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.Resources.resources
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.vbproj.GenerateResource.Cache
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.exe
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.pdb
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.xml
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.exe
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.xml
+c:\users\マット\documents\visual studio 2012\Projects\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.pdb
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.exe.config
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.exe
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.xml
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.pdb
