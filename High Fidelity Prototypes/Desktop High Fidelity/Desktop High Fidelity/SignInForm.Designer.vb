@@ -26,8 +26,8 @@ Partial Class SignInForm
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.usernameSignInTxt = New System.Windows.Forms.TextBox()
+        Me.passwordSignInTxt = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -52,13 +52,17 @@ Partial Class SignInForm
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(42, 9)
+        Me.Label1.Location = New System.Drawing.Point(108, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(265, 73)
         Me.Label1.TabIndex = 0
@@ -68,7 +72,7 @@ Partial Class SignInForm
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(69, 130)
+        Me.Label2.Location = New System.Drawing.Point(135, 130)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(219, 20)
         Me.Label2.TabIndex = 1
@@ -78,7 +82,7 @@ Partial Class SignInForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(79, 173)
+        Me.Label3.Location = New System.Drawing.Point(145, 173)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(87, 20)
         Me.Label3.TabIndex = 2
@@ -88,30 +92,32 @@ Partial Class SignInForm
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(84, 199)
+        Me.Label4.Location = New System.Drawing.Point(150, 199)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(82, 20)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Password:"
         '
-        'TextBox1
+        'usernameSignInTxt
         '
-        Me.TextBox1.Location = New System.Drawing.Point(172, 173)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.usernameSignInTxt.Location = New System.Drawing.Point(238, 173)
+        Me.usernameSignInTxt.Name = "usernameSignInTxt"
+        Me.usernameSignInTxt.Size = New System.Drawing.Size(100, 20)
+        Me.usernameSignInTxt.TabIndex = 4
         '
-        'TextBox2
+        'passwordSignInTxt
         '
-        Me.TextBox2.Location = New System.Drawing.Point(172, 199)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 5
+        Me.passwordSignInTxt.Location = New System.Drawing.Point(238, 199)
+        Me.passwordSignInTxt.Name = "passwordSignInTxt"
+        Me.passwordSignInTxt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.passwordSignInTxt.Size = New System.Drawing.Size(100, 20)
+        Me.passwordSignInTxt.TabIndex = 5
         '
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(172, 450)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 9
         '
@@ -146,7 +152,7 @@ Partial Class SignInForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(55, 373)
+        Me.Label7.Location = New System.Drawing.Point(117, 387)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(250, 20)
         Me.Label7.TabIndex = 10
@@ -154,7 +160,7 @@ Partial Class SignInForm
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(115, 244)
+        Me.Button1.Location = New System.Drawing.Point(181, 244)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(120, 44)
         Me.Button1.TabIndex = 11
@@ -163,7 +169,7 @@ Partial Class SignInForm
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(115, 757)
+        Me.Button2.Location = New System.Drawing.Point(181, 766)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(120, 44)
         Me.Button2.TabIndex = 12
@@ -174,6 +180,7 @@ Partial Class SignInForm
         '
         Me.TextBox5.Location = New System.Drawing.Point(172, 476)
         Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
         Me.TextBox5.TabIndex = 14
         '
@@ -218,7 +225,7 @@ Partial Class SignInForm
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(9, 563)
+        Me.Label11.Location = New System.Drawing.Point(64, 566)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(339, 20)
         Me.Label11.TabIndex = 18
@@ -235,7 +242,7 @@ Partial Class SignInForm
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(172, 615)
+        Me.ComboBox2.Location = New System.Drawing.Point(227, 618)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox2.TabIndex = 20
@@ -243,7 +250,7 @@ Partial Class SignInForm
         'ComboBox3
         '
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(172, 642)
+        Me.ComboBox3.Location = New System.Drawing.Point(227, 645)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox3.TabIndex = 21
@@ -251,7 +258,7 @@ Partial Class SignInForm
         'ComboBox4
         '
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(172, 669)
+        Me.ComboBox4.Location = New System.Drawing.Point(227, 672)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox4.TabIndex = 22
@@ -259,7 +266,7 @@ Partial Class SignInForm
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(172, 588)
+        Me.ComboBox5.Location = New System.Drawing.Point(227, 591)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox5.TabIndex = 23
@@ -267,7 +274,7 @@ Partial Class SignInForm
         'ComboBox6
         '
         Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(172, 696)
+        Me.ComboBox6.Location = New System.Drawing.Point(227, 699)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox6.TabIndex = 24
@@ -276,7 +283,7 @@ Partial Class SignInForm
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(36, 588)
+        Me.Label12.Location = New System.Drawing.Point(91, 591)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(130, 20)
         Me.Label12.TabIndex = 25
@@ -286,7 +293,7 @@ Partial Class SignInForm
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(36, 616)
+        Me.Label13.Location = New System.Drawing.Point(91, 619)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(130, 20)
         Me.Label13.TabIndex = 26
@@ -296,7 +303,7 @@ Partial Class SignInForm
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(36, 643)
+        Me.Label15.Location = New System.Drawing.Point(91, 646)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(130, 20)
         Me.Label15.TabIndex = 27
@@ -306,7 +313,7 @@ Partial Class SignInForm
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(36, 670)
+        Me.Label17.Location = New System.Drawing.Point(91, 673)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(130, 20)
         Me.Label17.TabIndex = 28
@@ -316,17 +323,61 @@ Partial Class SignInForm
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(36, 694)
+        Me.Label18.Location = New System.Drawing.Point(91, 697)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(130, 20)
         Me.Label18.TabIndex = 29
         Me.Label18.Text = "Language Slot 5:"
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(278, 476)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(187, 20)
+        Me.Label14.TabIndex = 30
+        Me.Label14.Text = "Passwords do not match!"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(278, 500)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(163, 20)
+        Me.Label16.TabIndex = 31
+        Me.Label16.Text = "Email address is valid!"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(278, 422)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(137, 20)
+        Me.Label19.TabIndex = 32
+        Me.Label19.Text = "Username is valid!"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(64, 731)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(342, 20)
+        Me.Label20.TabIndex = 33
+        Me.Label20.Text = "There are some problems with your registration!"
+        '
         'SignInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(361, 822)
+        Me.ClientSize = New System.Drawing.Size(476, 822)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.Label19)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label15)
@@ -351,8 +402,8 @@ Partial Class SignInForm
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.passwordSignInTxt)
+        Me.Controls.Add(Me.usernameSignInTxt)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -367,8 +418,8 @@ Partial Class SignInForm
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents usernameSignInTxt As System.Windows.Forms.TextBox
+    Friend WithEvents passwordSignInTxt As System.Windows.Forms.TextBox
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
@@ -393,5 +444,9 @@ Partial Class SignInForm
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label19 As System.Windows.Forms.Label
+    Friend WithEvents Label20 As System.Windows.Forms.Label
 
 End Class

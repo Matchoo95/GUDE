@@ -12,3 +12,14 @@ C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High F
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.exe
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.xml
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.pdb
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.exe.config
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.exe
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.xml
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.pdb
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.FindDecks.resources
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.SignInForm.resources
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.Resources.resources
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.vbproj.GenerateResource.Cache
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.exe
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.pdb
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.xml

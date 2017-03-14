@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindDecks.Designer.vb">
+      <DependentUpon>FindDecks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FindDecks.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SignInForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FindDecks.resx">
+      <DependentUpon>FindDecks.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignInForm.resx">
       <DependentUpon>SignInForm.vb</DependentUpon>
     </EmbeddedResource>
