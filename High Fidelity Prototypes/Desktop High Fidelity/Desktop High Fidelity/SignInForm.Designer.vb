@@ -353,7 +353,7 @@ Partial Class SignInForm
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(278, 422)
+        Me.Label19.Location = New System.Drawing.Point(278, 424)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(137, 20)
         Me.Label19.TabIndex = 32
