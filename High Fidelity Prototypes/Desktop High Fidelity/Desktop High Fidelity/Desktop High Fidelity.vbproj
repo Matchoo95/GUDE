@@ -70,10 +70,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InformationDeck.Designer.vb">
-      <DependentUpon>InformationDeck.vb</DependentUpon>
+    <Compile Include="ViewMap.Designer.vb">
+      <DependentUpon>ViewMap.vb</DependentUpon>
     </Compile>
-    <Compile Include="InformationDeck.vb">
+    <Compile Include="ViewMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformationDeckHospital.Designer.vb">
+      <DependentUpon>InformationDeckHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InformationDeckHospital.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FindDecks.Designer.vb">
@@ -106,8 +112,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="InformationDeck.resx">
-      <DependentUpon>InformationDeck.vb</DependentUpon>
+    <EmbeddedResource Include="ViewMap.resx">
+      <DependentUpon>ViewMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationDeckHospital.resx">
+      <DependentUpon>InformationDeckHospital.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindDecks.resx">
       <DependentUpon>FindDecks.vb</DependentUpon>

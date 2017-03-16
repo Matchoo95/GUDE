@@ -31,3 +31,5 @@ C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High F
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.SignInForm.resources
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.Resources.resources
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.vbproj.GenerateResource.Cache
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.InformationDeckHospital.resources
+N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.ViewMap.resources

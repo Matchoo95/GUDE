@@ -17,7 +17,7 @@ Public Class SignInForm
     Private Sub comboBox1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
         If DisplayLanguageCombo.SelectedItem.ToString() = "English" Then
             ChangeLanguage("en")
-        Else 
+        Else
             ChangeLanguage("jp-JP")
         End If
     End Sub

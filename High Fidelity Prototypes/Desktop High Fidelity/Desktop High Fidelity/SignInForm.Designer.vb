@@ -409,7 +409,7 @@ Partial Class SignInForm
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "SignInForm"
-        Me.Text = "Sign In"
+        Me.Text = "Manabu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
