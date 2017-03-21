@@ -30,7 +30,6 @@ Partial Class FindDecks
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportFlashcardsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EndToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AccountSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -104,7 +103,7 @@ Partial Class FindDecks
         '
         'MenuToolStripMenuItem
         '
-        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.ExportToolStripMenuItem, Me.EndToolStripMenuItem})
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.EndToolStripMenuItem})
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.MenuToolStripMenuItem.Text = "File"
@@ -114,12 +113,6 @@ Partial Class FindDecks
         Me.ExportFlashcardsToolStripMenuItem.Name = "ExportFlashcardsToolStripMenuItem"
         Me.ExportFlashcardsToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.ExportFlashcardsToolStripMenuItem.Text = "Switch Account"
-        '
-        'ExportToolStripMenuItem
-        '
-        Me.ExportToolStripMenuItem.Name = "ExportToolStripMenuItem"
-        Me.ExportToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.ExportToolStripMenuItem.Text = "Export"
         '
         'EndToolStripMenuItem
         '
@@ -317,7 +310,6 @@ Partial Class FindDecks
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExportFlashcardsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EndToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AccountSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem

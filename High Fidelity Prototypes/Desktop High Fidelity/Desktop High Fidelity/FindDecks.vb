@@ -33,11 +33,6 @@
         Sync.Show()
     End Sub
 
-    Private Sub StudyDecksTxt_Click(sender As Object, e As EventArgs) Handles StudyDecksTxt.Click
-        Me.Hide()
-        StudyDecks.Show()
-    End Sub
-
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
         Me.Hide()
         Statistics.Show()
@@ -66,5 +61,24 @@
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
         Me.Hide()
         ViewMap.Show()
+    End Sub
+
+    Private Sub ExportFlashcardsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExportFlashcardsToolStripMenuItem.Click
+        Me.Hide()
+        SignIn.Show()
+    End Sub
+
+    Private Sub EndToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EndToolStripMenuItem.Click
+        Close()
+    End Sub
+
+    Private Sub ViewTutorialToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewTutorialToolStripMenuItem.Click
+        MessageBox.Show("Sorry, this feature is currently unavailable", "Manabu", _
+          MessageBoxButtons.OKCancel)
+    End Sub
+
+    Private Sub StudyDecksTxt_Click(sender As Object, e As EventArgs) Handles StudyDecksTxt.Click
+        Me.Hide()
+        StudyDecks.Show()
     End Sub
 End Class

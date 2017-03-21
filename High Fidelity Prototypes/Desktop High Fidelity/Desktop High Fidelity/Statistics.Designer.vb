@@ -27,16 +27,6 @@ Partial Class Statistics
         Me.FindDecksTxt = New System.Windows.Forms.Button()
         Me.ViewMapTxt = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportFlashcardsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EndToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AccountSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LanguageSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ViewTutorialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
@@ -64,13 +54,21 @@ Partial Class Statistics
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.MenuStrip1.SuspendLayout()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExportFlashcardsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EndToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AccountSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViewTutorialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'StudyDecksTxt
@@ -109,72 +107,6 @@ Partial Class Statistics
         Me.Label1.Size = New System.Drawing.Size(374, 39)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Progress and Statistics"
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1178, 24)
-        Me.MenuStrip1.TabIndex = 4
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'MenuToolStripMenuItem
-        '
-        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.ExportToolStripMenuItem, Me.EndToolStripMenuItem})
-        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.MenuToolStripMenuItem.Text = "File"
-        '
-        'ExportFlashcardsToolStripMenuItem
-        '
-        Me.ExportFlashcardsToolStripMenuItem.Name = "ExportFlashcardsToolStripMenuItem"
-        Me.ExportFlashcardsToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.ExportFlashcardsToolStripMenuItem.Text = "Switch Account"
-        '
-        'ExportToolStripMenuItem
-        '
-        Me.ExportToolStripMenuItem.Name = "ExportToolStripMenuItem"
-        Me.ExportToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.ExportToolStripMenuItem.Text = "Export"
-        '
-        'EndToolStripMenuItem
-        '
-        Me.EndToolStripMenuItem.Name = "EndToolStripMenuItem"
-        Me.EndToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.EndToolStripMenuItem.Text = "Close"
-        '
-        'EditToolStripMenuItem
-        '
-        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountSettingsToolStripMenuItem, Me.LanguageSettingsToolStripMenuItem})
-        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem.Text = "Edit"
-        '
-        'AccountSettingsToolStripMenuItem
-        '
-        Me.AccountSettingsToolStripMenuItem.Name = "AccountSettingsToolStripMenuItem"
-        Me.AccountSettingsToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
-        Me.AccountSettingsToolStripMenuItem.Text = "Account Settings"
-        '
-        'LanguageSettingsToolStripMenuItem
-        '
-        Me.LanguageSettingsToolStripMenuItem.Name = "LanguageSettingsToolStripMenuItem"
-        Me.LanguageSettingsToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
-        Me.LanguageSettingsToolStripMenuItem.Text = "Language Settings"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewTutorialToolStripMenuItem})
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
-        '
-        'ViewTutorialToolStripMenuItem
-        '
-        Me.ViewTutorialToolStripMenuItem.Name = "ViewTutorialToolStripMenuItem"
-        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
-        Me.ViewTutorialToolStripMenuItem.Text = "View Tutorial"
         '
         'Label2
         '
@@ -447,11 +379,66 @@ Partial Class Statistics
         Me.Label22.TabIndex = 46
         Me.Label22.Text = "- 0 days"
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1178, 24)
+        Me.MenuStrip1.TabIndex = 49
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.EndToolStripMenuItem})
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.MenuToolStripMenuItem.Text = "File"
+        '
+        'ExportFlashcardsToolStripMenuItem
+        '
+        Me.ExportFlashcardsToolStripMenuItem.Name = "ExportFlashcardsToolStripMenuItem"
+        Me.ExportFlashcardsToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
+        Me.ExportFlashcardsToolStripMenuItem.Text = "Switch Account"
+        '
+        'EndToolStripMenuItem
+        '
+        Me.EndToolStripMenuItem.Name = "EndToolStripMenuItem"
+        Me.EndToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
+        Me.EndToolStripMenuItem.Text = "Close"
+        '
+        'EditToolStripMenuItem
+        '
+        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountSettingsToolStripMenuItem})
+        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem.Text = "Edit"
+        '
+        'AccountSettingsToolStripMenuItem
+        '
+        Me.AccountSettingsToolStripMenuItem.Name = "AccountSettingsToolStripMenuItem"
+        Me.AccountSettingsToolStripMenuItem.Size = New System.Drawing.Size(242, 22)
+        Me.AccountSettingsToolStripMenuItem.Text = "Account and Language Settings"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewTutorialToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'ViewTutorialToolStripMenuItem
+        '
+        Me.ViewTutorialToolStripMenuItem.Name = "ViewTutorialToolStripMenuItem"
+        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ViewTutorialToolStripMenuItem.Text = "View Tutorial"
+        '
         'Statistics
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1178, 936)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label22)
@@ -483,19 +470,17 @@ Partial Class Statistics
         Me.Controls.Add(Me.ViewMapTxt)
         Me.Controls.Add(Me.FindDecksTxt)
         Me.Controls.Add(Me.StudyDecksTxt)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Statistics"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Statistics and Progress"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -504,16 +489,6 @@ Partial Class Statistics
     Friend WithEvents FindDecksTxt As System.Windows.Forms.Button
     Friend WithEvents ViewMapTxt As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExportFlashcardsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EndToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AccountSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents LanguageSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ViewTutorialToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
@@ -541,4 +516,12 @@ Partial Class Statistics
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ExportFlashcardsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EndToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AccountSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ViewTutorialToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

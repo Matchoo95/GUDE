@@ -1,15 +1,15 @@
 ﻿Public Class StudyCard
 
     Private Sub StudyDecksTxt_Click(sender As Object, e As EventArgs) Handles StudyDecksTxt.Click
-        MessageBox.Show("You are already on the Study Decks page!", "Manabu", _
-          MessageBoxButtons.OKCancel)
+        Me.Hide()
+        StudyDecks.Show()
     End Sub
 
-    Private Sub MenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MenuToolStripMenuItem.Click
+    Private Sub MenuToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub EndToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EndToolStripMenuItem.Click
+    Private Sub EndToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -66,6 +66,11 @@
         Label19.Visible = False
         Label20.Visible = False
         Label21.Visible = False
+
+        Button3.Visible = False
+        Button4.Visible = False
+        Button6.Visible = False
+        Button5.Visible = False
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -101,6 +106,7 @@
         Label13.Visible = False
         Label1.Visible = False
         Label10.Visible = False
+        Label2.Visible = False
         Button2.Visible = True
     End Sub
 
@@ -119,6 +125,7 @@
         Label13.Visible = False
         Label1.Visible = False
         Label10.Visible = False
+        Label2.Visible = False
         Button2.Visible = True
     End Sub
 
@@ -137,6 +144,7 @@
         Label13.Visible = False
         Label1.Visible = False
         Label10.Visible = False
+        Label2.Visible = False
         Button2.Visible = True
     End Sub
 
@@ -155,6 +163,7 @@
         Label13.Visible = False
         Label1.Visible = False
         Label10.Visible = False
+        Label2.Visible = False
         Button2.Visible = True
     End Sub
 
@@ -173,5 +182,58 @@
         Label13.Visible = True
         Button2.Visible = False
         Label23.Visible = True
+
+        Button3.Visible = True
+        Button4.Visible = True
+        Button6.Visible = True
+        Button5.Visible = True
     End Sub
+
+    Private Sub EndToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles EndToolStripMenuItem.Click
+        Close()
+    End Sub
+
+    Private Sub ExportFlashcardsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExportFlashcardsToolStripMenuItem.Click
+        Me.Hide()
+        SignIn.Show()
+    End Sub
+
+    Private Sub AccountSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AccountSettingsToolStripMenuItem.Click
+        Me.Hide()
+        Settings.Show()
+    End Sub
+
+    Private Sub ViewTutorialToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewTutorialToolStripMenuItem.Click
+        MessageBox.Show("Sorry, this feature is currently unavailable", "Manabu", _
+          MessageBoxButtons.OKCancel)
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        MessageBox.Show("You've finished your cards for today!", "Manabu", _
+              MessageBoxButtons.OKCancel)
+        Me.Hide()
+        StudyDecks.Show()
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        MessageBox.Show("You've finished your cards for today!", "Manabu", _
+              MessageBoxButtons.OKCancel)
+        Me.Hide()
+        StudyDecks.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        MessageBox.Show("You've finished your cards for today!", "Manabu", _
+              MessageBoxButtons.OKCancel)
+        Me.Hide()
+        StudyDecks.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        MessageBox.Show("You've finished your cards for today!", "Manabu", _
+              MessageBoxButtons.OKCancel)
+        Me.Hide()
+        StudyDecks.Show()
+    End Sub
+
 End Class

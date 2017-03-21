@@ -26,16 +26,6 @@ Partial Class StudyCard
         Me.StudyDecksTxt = New System.Windows.Forms.Button()
         Me.FindDecksTxt = New System.Windows.Forms.Button()
         Me.ViewMapTxt = New System.Windows.Forms.Button()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportFlashcardsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EndToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AccountSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LanguageSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ViewTutorialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
@@ -67,9 +57,21 @@ Partial Class StudyCard
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.MenuStrip1.SuspendLayout()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExportFlashcardsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EndToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AccountSettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViewTutorialToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'StudyDecksTxt
@@ -98,72 +100,6 @@ Partial Class StudyCard
         Me.ViewMapTxt.TabIndex = 2
         Me.ViewMapTxt.Text = "View Map"
         Me.ViewMapTxt.UseVisualStyleBackColor = True
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1178, 24)
-        Me.MenuStrip1.TabIndex = 4
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'MenuToolStripMenuItem
-        '
-        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.ExportToolStripMenuItem, Me.EndToolStripMenuItem})
-        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.MenuToolStripMenuItem.Text = "File"
-        '
-        'ExportFlashcardsToolStripMenuItem
-        '
-        Me.ExportFlashcardsToolStripMenuItem.Name = "ExportFlashcardsToolStripMenuItem"
-        Me.ExportFlashcardsToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.ExportFlashcardsToolStripMenuItem.Text = "Switch Account"
-        '
-        'ExportToolStripMenuItem
-        '
-        Me.ExportToolStripMenuItem.Name = "ExportToolStripMenuItem"
-        Me.ExportToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.ExportToolStripMenuItem.Text = "Export"
-        '
-        'EndToolStripMenuItem
-        '
-        Me.EndToolStripMenuItem.Name = "EndToolStripMenuItem"
-        Me.EndToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
-        Me.EndToolStripMenuItem.Text = "Close"
-        '
-        'EditToolStripMenuItem
-        '
-        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountSettingsToolStripMenuItem, Me.LanguageSettingsToolStripMenuItem})
-        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem.Text = "Edit"
-        '
-        'AccountSettingsToolStripMenuItem
-        '
-        Me.AccountSettingsToolStripMenuItem.Name = "AccountSettingsToolStripMenuItem"
-        Me.AccountSettingsToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
-        Me.AccountSettingsToolStripMenuItem.Text = "Account Settings"
-        '
-        'LanguageSettingsToolStripMenuItem
-        '
-        Me.LanguageSettingsToolStripMenuItem.Name = "LanguageSettingsToolStripMenuItem"
-        Me.LanguageSettingsToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
-        Me.LanguageSettingsToolStripMenuItem.Text = "Language Settings"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewTutorialToolStripMenuItem})
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
-        '
-        'ViewTutorialToolStripMenuItem
-        '
-        Me.ViewTutorialToolStripMenuItem.Name = "ViewTutorialToolStripMenuItem"
-        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
-        Me.ViewTutorialToolStripMenuItem.Text = "View Tutorial"
         '
         'Label2
         '
@@ -470,11 +406,106 @@ Partial Class StudyCard
         Me.Label23.TabIndex = 51
         Me.Label23.Text = "マット (matto) - Matt"
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1178, 24)
+        Me.MenuStrip1.TabIndex = 52
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportFlashcardsToolStripMenuItem, Me.EndToolStripMenuItem})
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.MenuToolStripMenuItem.Text = "File"
+        '
+        'ExportFlashcardsToolStripMenuItem
+        '
+        Me.ExportFlashcardsToolStripMenuItem.Name = "ExportFlashcardsToolStripMenuItem"
+        Me.ExportFlashcardsToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
+        Me.ExportFlashcardsToolStripMenuItem.Text = "Switch Account"
+        '
+        'EndToolStripMenuItem
+        '
+        Me.EndToolStripMenuItem.Name = "EndToolStripMenuItem"
+        Me.EndToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
+        Me.EndToolStripMenuItem.Text = "Close"
+        '
+        'EditToolStripMenuItem
+        '
+        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccountSettingsToolStripMenuItem})
+        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem.Text = "Edit"
+        '
+        'AccountSettingsToolStripMenuItem
+        '
+        Me.AccountSettingsToolStripMenuItem.Name = "AccountSettingsToolStripMenuItem"
+        Me.AccountSettingsToolStripMenuItem.Size = New System.Drawing.Size(242, 22)
+        Me.AccountSettingsToolStripMenuItem.Text = "Account and Language Settings"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewTutorialToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'ViewTutorialToolStripMenuItem
+        '
+        Me.ViewTutorialToolStripMenuItem.Name = "ViewTutorialToolStripMenuItem"
+        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.ViewTutorialToolStripMenuItem.Text = "View Tutorial"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(317, 696)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(131, 41)
+        Me.Button5.TabIndex = 54
+        Me.Button5.Text = "Skip"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(454, 696)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(131, 41)
+        Me.Button3.TabIndex = 56
+        Me.Button3.Text = "< 1 minute (Again)"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(591, 696)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(131, 41)
+        Me.Button4.TabIndex = 55
+        Me.Button4.Text = "< 10 minutes (Good)"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(728, 696)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(131, 41)
+        Me.Button6.TabIndex = 53
+        Me.Button6.Text = "1 day (Easy)"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'StudyCard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1178, 766)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label22)
@@ -509,15 +540,13 @@ Partial Class StudyCard
         Me.Controls.Add(Me.ViewMapTxt)
         Me.Controls.Add(Me.FindDecksTxt)
         Me.Controls.Add(Me.StudyDecksTxt)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "StudyCard"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Study Cards"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -525,16 +554,6 @@ Partial Class StudyCard
     Friend WithEvents StudyDecksTxt As System.Windows.Forms.Button
     Friend WithEvents FindDecksTxt As System.Windows.Forms.Button
     Friend WithEvents ViewMapTxt As System.Windows.Forms.Button
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExportFlashcardsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EndToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AccountSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents LanguageSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ViewTutorialToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
@@ -566,4 +585,16 @@ Partial Class StudyCard
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ExportFlashcardsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EndToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AccountSettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ViewTutorialToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
 End Class
