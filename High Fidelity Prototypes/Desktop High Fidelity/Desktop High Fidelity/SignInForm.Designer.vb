@@ -42,11 +42,11 @@ Partial Class SignInForm
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.DisplayLanguageCombo = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.LearningLanguage2 = New System.Windows.Forms.ComboBox()
+        Me.LearningLanguage3 = New System.Windows.Forms.ComboBox()
+        Me.LearningLanguage4 = New System.Windows.Forms.ComboBox()
+        Me.LearningLanguage1 = New System.Windows.Forms.ComboBox()
+        Me.LearningLanguage5 = New System.Windows.Forms.ComboBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
@@ -56,6 +56,12 @@ Partial Class SignInForm
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -104,6 +110,7 @@ Partial Class SignInForm
         Me.usernameSignInTxt.Name = "usernameSignInTxt"
         Me.usernameSignInTxt.Size = New System.Drawing.Size(100, 20)
         Me.usernameSignInTxt.TabIndex = 4
+        Me.usernameSignInTxt.Text = "gude"
         '
         'passwordSignInTxt
         '
@@ -112,6 +119,7 @@ Partial Class SignInForm
         Me.passwordSignInTxt.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.passwordSignInTxt.Size = New System.Drawing.Size(100, 20)
         Me.passwordSignInTxt.TabIndex = 5
+        Me.passwordSignInTxt.Text = "12345"
         '
         'TextBox3
         '
@@ -239,45 +247,45 @@ Partial Class SignInForm
         Me.DisplayLanguageCombo.Size = New System.Drawing.Size(121, 21)
         Me.DisplayLanguageCombo.TabIndex = 19
         '
-        'ComboBox2
+        'LearningLanguage2
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(227, 618)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 20
+        Me.LearningLanguage2.FormattingEnabled = True
+        Me.LearningLanguage2.Location = New System.Drawing.Point(227, 618)
+        Me.LearningLanguage2.Name = "LearningLanguage2"
+        Me.LearningLanguage2.Size = New System.Drawing.Size(121, 21)
+        Me.LearningLanguage2.TabIndex = 20
         '
-        'ComboBox3
+        'LearningLanguage3
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(227, 645)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 21
+        Me.LearningLanguage3.FormattingEnabled = True
+        Me.LearningLanguage3.Location = New System.Drawing.Point(227, 645)
+        Me.LearningLanguage3.Name = "LearningLanguage3"
+        Me.LearningLanguage3.Size = New System.Drawing.Size(121, 21)
+        Me.LearningLanguage3.TabIndex = 21
         '
-        'ComboBox4
+        'LearningLanguage4
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(227, 672)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox4.TabIndex = 22
+        Me.LearningLanguage4.FormattingEnabled = True
+        Me.LearningLanguage4.Location = New System.Drawing.Point(227, 672)
+        Me.LearningLanguage4.Name = "LearningLanguage4"
+        Me.LearningLanguage4.Size = New System.Drawing.Size(121, 21)
+        Me.LearningLanguage4.TabIndex = 22
         '
-        'ComboBox5
+        'LearningLanguage1
         '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(227, 591)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox5.TabIndex = 23
+        Me.LearningLanguage1.FormattingEnabled = True
+        Me.LearningLanguage1.Location = New System.Drawing.Point(227, 591)
+        Me.LearningLanguage1.Name = "LearningLanguage1"
+        Me.LearningLanguage1.Size = New System.Drawing.Size(121, 21)
+        Me.LearningLanguage1.TabIndex = 23
         '
-        'ComboBox6
+        'LearningLanguage5
         '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(227, 699)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox6.TabIndex = 24
+        Me.LearningLanguage5.FormattingEnabled = True
+        Me.LearningLanguage5.Location = New System.Drawing.Point(227, 699)
+        Me.LearningLanguage5.Name = "LearningLanguage5"
+        Me.LearningLanguage5.Size = New System.Drawing.Size(121, 21)
+        Me.LearningLanguage5.TabIndex = 24
         '
         'Label12
         '
@@ -333,7 +341,7 @@ Partial Class SignInForm
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(278, 476)
+        Me.Label14.Location = New System.Drawing.Point(299, 476)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(187, 20)
         Me.Label14.TabIndex = 30
@@ -343,37 +351,109 @@ Partial Class SignInForm
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(278, 500)
+        Me.Label16.Location = New System.Drawing.Point(299, 502)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(163, 20)
+        Me.Label16.Size = New System.Drawing.Size(175, 20)
         Me.Label16.TabIndex = 31
-        Me.Label16.Text = "Email address is valid!"
+        Me.Label16.Text = "Email address is invalid!"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(278, 424)
+        Me.Label19.Location = New System.Drawing.Point(299, 427)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(137, 20)
+        Me.Label19.Size = New System.Drawing.Size(149, 20)
         Me.Label19.TabIndex = 32
-        Me.Label19.Text = "Username is valid!"
+        Me.Label19.Text = "Username is invalid!"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(64, 731)
+        Me.Label20.Location = New System.Drawing.Point(33, 732)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(342, 20)
+        Me.Label20.Size = New System.Drawing.Size(431, 20)
         Me.Label20.TabIndex = 33
-        Me.Label20.Text = "There are some problems with your registration!"
+        Me.Label20.Text = "Please fill all of the required fields that have a * next to them!"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Red
+        Me.Label21.Location = New System.Drawing.Point(352, 592)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(15, 20)
+        Me.Label21.TabIndex = 34
+        Me.Label21.Text = "*"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Red
+        Me.Label22.Location = New System.Drawing.Point(278, 427)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(15, 20)
+        Me.Label22.TabIndex = 35
+        Me.Label22.Text = "*"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.Red
+        Me.Label23.Location = New System.Drawing.Point(278, 450)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(15, 20)
+        Me.Label23.TabIndex = 36
+        Me.Label23.Text = "*"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Red
+        Me.Label24.Location = New System.Drawing.Point(278, 479)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(15, 20)
+        Me.Label24.TabIndex = 37
+        Me.Label24.Text = "*"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.ForeColor = System.Drawing.Color.Red
+        Me.Label25.Location = New System.Drawing.Point(278, 502)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(15, 20)
+        Me.Label25.TabIndex = 38
+        Me.Label25.Text = "*"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.ForeColor = System.Drawing.Color.Red
+        Me.Label26.Location = New System.Drawing.Point(299, 529)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(15, 20)
+        Me.Label26.TabIndex = 39
+        Me.Label26.Text = "*"
         '
         'SignInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(476, 822)
+        Me.ClientSize = New System.Drawing.Size(486, 822)
+        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Label22)
+        Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label16)
@@ -383,11 +463,11 @@ Partial Class SignInForm
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.ComboBox6)
-        Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.LearningLanguage5)
+        Me.Controls.Add(Me.LearningLanguage1)
+        Me.Controls.Add(Me.LearningLanguage4)
+        Me.Controls.Add(Me.LearningLanguage3)
+        Me.Controls.Add(Me.LearningLanguage2)
         Me.Controls.Add(Me.DisplayLanguageCombo)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
@@ -434,11 +514,11 @@ Partial Class SignInForm
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents DisplayLanguageCombo As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox5 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
+    Friend WithEvents LearningLanguage2 As System.Windows.Forms.ComboBox
+    Friend WithEvents LearningLanguage3 As System.Windows.Forms.ComboBox
+    Friend WithEvents LearningLanguage4 As System.Windows.Forms.ComboBox
+    Friend WithEvents LearningLanguage1 As System.Windows.Forms.ComboBox
+    Friend WithEvents LearningLanguage5 As System.Windows.Forms.ComboBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
@@ -448,5 +528,11 @@ Partial Class SignInForm
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Label23 As System.Windows.Forms.Label
+    Friend WithEvents Label24 As System.Windows.Forms.Label
+    Friend WithEvents Label25 As System.Windows.Forms.Label
+    Friend WithEvents Label26 As System.Windows.Forms.Label
 
 End Class

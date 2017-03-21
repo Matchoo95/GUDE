@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Desktop_High_Fidelity.My.MyApplication</StartupObject>
     <RootNamespace>Desktop_High_Fidelity</RootNamespace>
-    <AssemblyName>Desktop High Fidelity</AssemblyName>
+    <AssemblyName>Manabu</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Desktop High Fidelity.xml</DocumentationFile>
+    <DocumentationFile>Manabu.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Desktop High Fidelity.xml</DocumentationFile>
+    <DocumentationFile>Manabu.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -70,6 +70,30 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StudyCard.Designer.vb">
+      <DependentUpon>StudyCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudyCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sync.Designer.vb">
+      <DependentUpon>Sync.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sync.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudyDecks.Designer.vb">
+      <DependentUpon>StudyDecks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudyDecks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics.Designer.vb">
+      <DependentUpon>Statistics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ViewMap.Designer.vb">
       <DependentUpon>ViewMap.vb</DependentUpon>
     </Compile>
@@ -112,6 +136,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="StudyCard.resx">
+      <DependentUpon>StudyCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sync.resx">
+      <DependentUpon>Sync.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudyDecks.resx">
+      <DependentUpon>StudyDecks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics.resx">
+      <DependentUpon>Statistics.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewMap.resx">
       <DependentUpon>ViewMap.vb</DependentUpon>
     </EmbeddedResource>

@@ -1,4 +1,5 @@
-﻿Public Class InformationDeckHospital
+﻿Public Class Statistics
+
     Private Sub StudyDecksTxt_Click(sender As Object, e As EventArgs) Handles StudyDecksTxt.Click
         Me.Hide()
         StudyDecks.Show()
@@ -12,21 +13,12 @@
 
     End Sub
 
-    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Desktop_High_Fidelity1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim url As New System.Uri("http://maps.google.com")
-        WebBrowser1.Navigate(url)
-    End Sub
+    Private Sub Label9_Click(sender As Object, e As EventArgs)
 
-    Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
-
-    End Sub
-
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        Sync.Show()
     End Sub
 
     Private Sub FindDecksTxt_Click(sender As Object, e As EventArgs) Handles FindDecksTxt.Click
@@ -40,7 +32,15 @@
     End Sub
 
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
-        Me.Hide()
-        Statistics.Show()
+        MessageBox.Show("You are already on the Statistics and Progress page!", "Manabu", _
+  MessageBoxButtons.OKCancel)
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        Sync.Show()
+    End Sub
+
+    Private Sub StudyDecks_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
