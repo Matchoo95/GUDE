@@ -276,6 +276,7 @@ Partial Class InformationDeckHospital
         Me.Controls.Add(Me.WebBrowser1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "InformationDeckHospital"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Manabu"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

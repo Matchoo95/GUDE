@@ -341,6 +341,7 @@ Partial Class ViewMap
         Me.Controls.Add(Me.WebBrowser1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "ViewMap"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Manabu"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

@@ -65,6 +65,8 @@ Partial Class StudyCard
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label23 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -225,7 +227,7 @@ Partial Class StudyCard
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(511, 516)
+        Me.Button1.Location = New System.Drawing.Point(511, 517)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(131, 41)
         Me.Button1.TabIndex = 27
@@ -246,7 +248,7 @@ Partial Class StudyCard
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(471, 293)
+        Me.Label4.Location = New System.Drawing.Point(464, 293)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(228, 25)
         Me.Label4.TabIndex = 29
@@ -256,7 +258,7 @@ Partial Class StudyCard
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(465, 347)
+        Me.Label5.Location = New System.Drawing.Point(416, 347)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(215, 20)
         Me.Label5.TabIndex = 30
@@ -266,7 +268,7 @@ Partial Class StudyCard
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(465, 367)
+        Me.Label6.Location = New System.Drawing.Point(416, 367)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(343, 20)
         Me.Label6.TabIndex = 31
@@ -276,7 +278,7 @@ Partial Class StudyCard
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(465, 387)
+        Me.Label8.Location = New System.Drawing.Point(416, 387)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(233, 20)
         Me.Label8.TabIndex = 32
@@ -286,7 +288,7 @@ Partial Class StudyCard
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(465, 407)
+        Me.Label9.Location = New System.Drawing.Point(416, 407)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(210, 20)
         Me.Label9.TabIndex = 33
@@ -296,7 +298,7 @@ Partial Class StudyCard
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(332, 454)
+        Me.Label11.Location = New System.Drawing.Point(353, 453)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(534, 40)
         Me.Label11.TabIndex = 34
@@ -393,7 +395,7 @@ Partial Class StudyCard
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(499, 293)
+        Me.Label17.Location = New System.Drawing.Point(489, 293)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(169, 25)
         Me.Label17.TabIndex = 44
@@ -403,7 +405,7 @@ Partial Class StudyCard
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(468, 347)
+        Me.Label18.Location = New System.Drawing.Point(422, 347)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(270, 20)
         Me.Label18.TabIndex = 45
@@ -413,7 +415,7 @@ Partial Class StudyCard
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(468, 367)
+        Me.Label19.Location = New System.Drawing.Point(422, 367)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(216, 20)
         Me.Label19.TabIndex = 46
@@ -423,7 +425,7 @@ Partial Class StudyCard
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(468, 387)
+        Me.Label20.Location = New System.Drawing.Point(422, 387)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(434, 20)
         Me.Label20.TabIndex = 47
@@ -433,7 +435,7 @@ Partial Class StudyCard
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(468, 424)
+        Me.Label21.Location = New System.Drawing.Point(422, 424)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(210, 20)
         Me.Label21.TabIndex = 48
@@ -443,17 +445,38 @@ Partial Class StudyCard
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(468, 405)
+        Me.Label22.Location = New System.Drawing.Point(422, 405)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(241, 20)
         Me.Label22.TabIndex = 49
         Me.Label22.Text = "申す(mousu) - to say; to be called"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(511, 517)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(131, 41)
+        Me.Button2.TabIndex = 50
+        Me.Button2.Text = "Show Answer"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(422, 444)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(141, 20)
+        Me.Label23.TabIndex = 51
+        Me.Label23.Text = "マット (matto) - Matt"
         '
         'StudyCard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1178, 766)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
@@ -489,6 +512,7 @@ Partial Class StudyCard
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "StudyCard"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Study Cards"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -540,4 +564,6 @@ Partial Class StudyCard
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label23 As System.Windows.Forms.Label
 End Class

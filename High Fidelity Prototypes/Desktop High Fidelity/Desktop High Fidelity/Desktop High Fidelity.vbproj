@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="StudyCard.Designer.vb">
       <DependentUpon>StudyCard.vb</DependentUpon>
     </Compile>
@@ -112,11 +118,11 @@
     <Compile Include="FindDecks.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignInForm.vb">
+    <Compile Include="SignIn.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SignInForm.Designer.vb">
-      <DependentUpon>SignInForm.vb</DependentUpon>
+    <Compile Include="SignIn.Designer.vb">
+      <DependentUpon>SignIn.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -136,6 +142,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudyCard.resx">
       <DependentUpon>StudyCard.vb</DependentUpon>
     </EmbeddedResource>
@@ -157,8 +166,8 @@
     <EmbeddedResource Include="FindDecks.resx">
       <DependentUpon>FindDecks.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SignInForm.resx">
-      <DependentUpon>SignInForm.vb</DependentUpon>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

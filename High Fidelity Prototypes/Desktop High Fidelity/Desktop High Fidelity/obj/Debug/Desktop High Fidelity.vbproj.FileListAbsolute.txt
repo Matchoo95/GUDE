@@ -20,7 +20,6 @@ N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\D
 N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.pdb
 N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\bin\Debug\Desktop High Fidelity.xml
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.FindDecks.resources
-C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.SignInForm.resources
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.Resources.resources
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop High Fidelity.vbproj.GenerateResource.Cache
 N:\Downloads\Chrome Downloads\GUDE-master\GUDE-master\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.InformationDeckHospital.resources
@@ -38,3 +37,5 @@ C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High F
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Manabu.xml
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Manabu.pdb
 C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.StudyCard.resources
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.SignIn.resources
+C:\Users\マット\Documents\GitHub\GUDE\High Fidelity Prototypes\Desktop High Fidelity\Desktop High Fidelity\obj\Debug\Desktop_High_Fidelity.Settings.resources

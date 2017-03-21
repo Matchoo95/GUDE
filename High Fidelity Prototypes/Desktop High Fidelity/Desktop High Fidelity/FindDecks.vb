@@ -42,4 +42,29 @@
         Me.Hide()
         Statistics.Show()
     End Sub
+
+    Private Sub AccountSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AccountSettingsToolStripMenuItem.Click
+        Me.Hide()
+        Settings.Show()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        MessageBox.Show("Sorry, this flashcard deck is currently locked. Please reach level 20 first! For more level statistics see the graph page by clicking the pie chart in the top right hand corner.", "Manabu", _
+           MessageBoxButtons.OKCancel)
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+        MessageBox.Show("Sorry, this flashcard deck is currently locked. Please reach level 20 first! For more level statistics see the graph page by clicking the pie chart in the top right hand corner.", "Manabu", _
+           MessageBoxButtons.OKCancel)
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+        Me.Hide()
+        ViewMap.Show()
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        Me.Hide()
+        ViewMap.Show()
+    End Sub
 End Class

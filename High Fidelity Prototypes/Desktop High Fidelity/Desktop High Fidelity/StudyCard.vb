@@ -47,6 +47,10 @@
         Label12.Visible = False
         Label3.Visible = False
         Label13.Visible = False
+        Label23.Visible = False
+
+        Button2.Visible = False
+
         Skip.Visible = False
         Again.Visible = False
         Good.Visible = False
@@ -79,45 +83,82 @@
         Good.Visible = True
         Easy.Visible = True
         Label6.Visible = True
+        Button1.Visible = False
     End Sub
 
     Private Sub Again_Click(sender As Object, e As EventArgs) Handles Again.Click
-        Label22.Visible = True
         Label15.Visible = True
         Label16.Visible = True
         Label14.Visible = True
-        Label17.Visible = True
-        Label18.Visible = True
-        Label19.Visible = True
-        Label20.Visible = True
-        Label21.Visible = True
+        Label6.Visible = False
+        Label4.Visible = False
+        Label5.Visible = False
+        Label8.Visible = False
+        Label9.Visible = False
+        Label11.Visible = False
+        Label12.Visible = False
+        Label3.Visible = False
+        Label13.Visible = False
+        Label1.Visible = False
+        Label10.Visible = False
+        Button2.Visible = True
     End Sub
 
     Private Sub Good_Click(sender As Object, e As EventArgs) Handles Good.Click
-        Label22.Visible = True
         Label15.Visible = True
         Label16.Visible = True
         Label14.Visible = True
-        Label17.Visible = True
-        Label18.Visible = True
-        Label19.Visible = True
-        Label20.Visible = True
-        Label21.Visible = True
+        Label6.Visible = False
+        Label4.Visible = False
+        Label5.Visible = False
+        Label8.Visible = False
+        Label9.Visible = False
+        Label11.Visible = False
+        Label12.Visible = False
+        Label3.Visible = False
+        Label13.Visible = False
+        Label1.Visible = False
+        Label10.Visible = False
+        Button2.Visible = True
     End Sub
 
     Private Sub Easy_Click(sender As Object, e As EventArgs) Handles Easy.Click
-        Label22.Visible = True
         Label15.Visible = True
         Label16.Visible = True
         Label14.Visible = True
-        Label17.Visible = True
-        Label18.Visible = True
-        Label19.Visible = True
-        Label20.Visible = True
-        Label21.Visible = True
+        Label6.Visible = False
+        Label4.Visible = False
+        Label5.Visible = False
+        Label8.Visible = False
+        Label9.Visible = False
+        Label11.Visible = False
+        Label12.Visible = False
+        Label3.Visible = False
+        Label13.Visible = False
+        Label1.Visible = False
+        Label10.Visible = False
+        Button2.Visible = True
     End Sub
 
     Private Sub Skip_Click(sender As Object, e As EventArgs) Handles Skip.Click
+        Label15.Visible = True
+        Label16.Visible = True
+        Label14.Visible = True
+        Label6.Visible = False
+        Label4.Visible = False
+        Label5.Visible = False
+        Label8.Visible = False
+        Label9.Visible = False
+        Label11.Visible = False
+        Label12.Visible = False
+        Label3.Visible = False
+        Label13.Visible = False
+        Label1.Visible = False
+        Label10.Visible = False
+        Button2.Visible = True
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Label22.Visible = True
         Label15.Visible = True
         Label16.Visible = True
@@ -127,5 +168,10 @@
         Label19.Visible = True
         Label20.Visible = True
         Label21.Visible = True
+        Label3.Visible = True
+        Label12.Visible = True
+        Label13.Visible = True
+        Button2.Visible = False
+        Label23.Visible = True
     End Sub
 End Class

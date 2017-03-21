@@ -8,7 +8,7 @@
         ProgressBar1.Increment(1)
         If ProgressBar1.Value = ProgressBar1.Maximum Then
             Timer1.Stop()
-            MsgBox("Manabu has finished syncing. Click okay to close.", MsgBoxStyle.Exclamation)
+            MsgBox("Manabu has finished syncing. Click okay to close.", MsgBoxStyle.OkOnly)
             Me.Hide()
         End If
         Label1.Text = ProgressBar1.Value & (" %")
