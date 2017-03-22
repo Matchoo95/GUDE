@@ -18,7 +18,7 @@
 
     Private Sub Desktop_High_Fidelity1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim url As New System.Uri("http://maps.google.com")
-        WebBrowser1.Navigate(url)
+        Me.WebBrowser1.Navigate(url)
     End Sub
 
     Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted

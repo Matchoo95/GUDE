@@ -22,14 +22,17 @@
     End Sub
 
     Private Sub FindDecksTxt_Click(sender As Object, e As EventArgs) Handles FindDecksTxt.Click
+        Me.Hide()
         FindDecks.Show()
     End Sub
 
     Private Sub ViewMapTxt_Click(sender As Object, e As EventArgs) Handles ViewMapTxt.Click
+        Me.Hide()
         ViewMap.Show()
     End Sub
 
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        Me.Hide()
         Statistics.Show()
     End Sub
 
