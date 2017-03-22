@@ -430,7 +430,7 @@ Partial Class Statistics
         'ViewTutorialToolStripMenuItem
         '
         Me.ViewTutorialToolStripMenuItem.Name = "ViewTutorialToolStripMenuItem"
-        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ViewTutorialToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.ViewTutorialToolStripMenuItem.Text = "View Tutorial"
         '
         'Statistics
